@@ -38,13 +38,13 @@ def create_china_map():
                     {"max": 0, "label": "null", "color": "#000000"}
                 ],
                 textstyle_opts=opts.TextStyleOpts(
-                    font_size=18,  # ✅ 放大字体
+                    font_size=18,
                     font_family="Times New Roman"
                 ),
-                item_width=30,  # ✅ 图例色块宽度
-                item_height=20,  # ✅ 图例色块高度
-                orient="horizontal",  # ✅ 水平排列更适合宽屏
-                pos_bottom="20px",  # ✅ 控制位置
+                item_width=30,
+                item_height=20,
+                orient="horizontal", 
+                pos_bottom="20px",
                 pos_left="center"
             ),
 
